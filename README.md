@@ -1,7 +1,7 @@
 Quick reference sheet for D&D 5e
 Find my version of the actual Sheet in action @
 
-https://orbitalbliss.github.io/dnd5e-quickref/quickref.html
+/quickref.html
 
 Or the Brief version of the sheet (good for new players) in action @
 
