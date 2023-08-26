@@ -261,11 +261,11 @@ table#t01 th {
 /* ------------------------------------------------------------------------- */
 /* Colors */
 /* ------------------------------------------------------------------------- */
-#section-movement, #section-movement .item-icon {
+#section-basic-actions-common, #section-basic-actions-common .item-icon {
     background-color: maroon;
     border-color: maroon;
 }
-#section-movement .text {
+#section-basic-actions-common .text {
     color: maroon;
 }
 
