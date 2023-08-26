@@ -1,94 +1,59 @@
 data_movement = [
     {
         title: "Stride",
-        icon: "FreeAction",
-        subtitle: "Cost: 5ft per 5ft",
+        icon: "OneAction",
+        subtitle: "You move up to your Speed",
         description: "Movement cost: 5ft per 5ft moved",
-        reference: "PHB, pg. 190.",
+        reference: "Core Rulebook pg. 471 4.0",
         bullets: [
-            "If you have more than one speed, such as your walking speed and a flying speed, you can switch back and forth between your speeds during your move. Whenever you switch, subtract the distance you've already moved from the new speed.",
-            "You can move through a nonhostile creature's space.",
-            "You can move through a hostile creature's space only if the creature is at least two sizes larger or smaller than you.",
-            "Another creature's space is difficult terrain for you.",
-            "Whether a creature is a friend or an enemy, you can't willingly end your move in its space."
-        ]
-    },
-    {
-        title: "Strike",
-        icon: "walk",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft moved",
-        reference: "PHB, pg. 190.",
-        bullets: [
-            "If you have more than one speed, such as your walking speed and a flying speed, you can switch back and forth between your speeds during your move. Whenever you switch, subtract the distance you've already moved from the new speed.",
-            "You can move through a nonhostile creature's space.",
-            "You can move through a hostile creature's space only if the creature is at least two sizes larger or smaller than you.",
-            "Another creature's space is difficult terrain for you.",
-            "Whether a creature is a friend or an enemy, you can't willingly end your move in its space."
-        ]
-    },
-    {
-        title: "Cast a spell",
-        icon: "walk",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft moved",
-        reference: "PHB, pg. 190.",
-        bullets: [
-            "If you have more than one speed, such as your walking speed and a flying speed, you can switch back and forth between your speeds during your move. Whenever you switch, subtract the distance you've already moved from the new speed.",
-            "You can move through a nonhostile creature's space.",
-            "You can move through a hostile creature's space only if the creature is at least two sizes larger or smaller than you.",
-            "Another creature's space is difficult terrain for you.",
-            "Whether a creature is a friend or an enemy, you can't willingly end your move in its space."
+            "You move up to your Speed. "
         ]
     },
     {
         title: "Step",
-        icon: "walk",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft moved",
-        reference: "PHB, pg. 190.",
+        icon: "OneAction",
+        subtitle: "You carefully move 5 feet",
+        description: "Requirements: Your Speed is at least 10 feet",
+        reference: "Core Rulebook pg. 471 4.0",
         bullets: [
-            "If you have more than one speed, such as your walking speed and a flying speed, you can switch back and forth between your speeds during your move. Whenever you switch, subtract the distance you've already moved from the new speed.",
-            "You can move through a nonhostile creature's space.",
-            "You can move through a hostile creature's space only if the creature is at least two sizes larger or smaller than you.",
-            "Another creature's space is difficult terrain for you.",
-            "Whether a creature is a friend or an enemy, you can't willingly end your move in its space."
+            "You carefully move 5 feet. Unlike most types of movement, Stepping doesn't trigger reactions, such as Attacks of Opportunity, that can be triggered by move actions or upon leaving or entering a square.",
+            "You can't Step into difficult terrain, and you can't Step using a Speed other than your land Speed. "
         ]
     },
     {
-        title: "Raise a shield",
-        icon: "walk",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft moved",
-        reference: "PHB, pg. 190.",
+        title: "Stand",
+        icon: "OneAction",
+        subtitle: "You stand up from prone",
+        description: " ",
+        reference: "Core Rulebook pg. 471 4.0",
         bullets: [
-            "If you have more than one speed, such as your walking speed and a flying speed, you can switch back and forth between your speeds during your move. Whenever you switch, subtract the distance you've already moved from the new speed.",
-            "You can move through a nonhostile creature's space.",
-            "You can move through a hostile creature's space only if the creature is at least two sizes larger or smaller than you.",
-            "Another creature's space is difficult terrain for you.",
-            "Whether a creature is a friend or an enemy, you can't willingly end your move in its space."
+            "You stand up from prone."
         ]
     },
     {
-        title: "Stride",
-        icon: "despair",
-        subtitle: "Cost: 0ft",
-        description: "Movement cost: 0ft (free)",
-        reference: "PHB, pgs. 190-191,292.",
+        title: "Tumble Through",
+        icon: "OneAction",
+        subtitle: "You Stride up to your Speed",
+        description: " ",
+        reference: "Core Rulebook pg. 240 4.0",
         bullets: [
-            "You can drop prone without using any of your speed",
-            "To move while prone, you must crawl or use magic such as teleportation",
-            "Dropping prone adds the <i>Prone</i> condition (melee attacks against you have advantage, ranged attacks against you have disadvantage, your own attacks have disadvantage)"
+            "You Stride up to your Speed. During this movement, you can try to move through the space of one enemy. Attempt an Acrobatics check against the enemy’s Reflex DC as soon as you try to enter its space. You can Tumble Through using Climb, Fly, Swim, or another action instead of Stride in the appropriate environment.",
+            "Success: You move through the enemy's space, treating the squares in its space as difficult terrain (every 5 feet costs 10 feet of movement). If you don’t have enough Speed to move all the way through its space, you get the same effect as a failure.",
+            "Failure: Your movement ends, and you trigger reactions as if you had moved out of the square you started in."
         ]
     },
     {
-        title: "Stand up",
-        icon: "strong",
-        subtitle: "Cost: half of speed",
-        description: "Movement cost: half of your speed",
-        reference: "PHB, pg. 190-191.",
+        title: "Balance",
+        icon: "OneAction",
+        subtitle: "Move across a narrow or uneven surface",
+        description: "Requirements: You are in a square that contains a narrow surface, uneven ground, or another similar feature",
+        reference: "Core Rulebook pg. 240 4.0",
         bullets: [
-            "You can't stand up if you don't have enough movement left or if your speed is 0"
+            "You move across a narrow surface or uneven ground, attempting an Acrobatics check against its Balance DC. You are flat-footed while on a narrow surface or uneven ground.",
+            "Critical Success: You move up to your Speed.",
+            "Success: You move up to your Speed, treating it as difficult terrain (every 5 feet costs 10 feet of movement).",
+            "Failure: You must remain stationary to keep your balance (wasting the action) or you fall. If you fall, your turn ends.",
+            "Critical Failure: You fall and your turn ends.",
         ]
     },
     {
